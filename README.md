@@ -1,4 +1,4 @@
-# Sample Project Title
+# Fuse
 Briefly describe your project here.
 
 ## Directory Structure
