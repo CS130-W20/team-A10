@@ -1,6 +1,8 @@
 import { GraphQLServer } from 'graphql-yoga';
 import { prisma } from '../prisma/generated/prisma-client';
 
+const ENV = process.env.NODE_ENV;
+
 const typeDefs = `
   type Query {
     ping: String!
@@ -27,4 +29,4 @@ const server = new GraphQLServer({
 });
 
 // eslint-disable-next-line no-console
-server.start(() => console.log('Server is running on localhost:4000'));
+server.start(() => console.log(`Server is running on ${ENV}!`));
