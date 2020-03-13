@@ -1,15 +1,6 @@
 # Fuse
-Briefly describe your project here.
-
-## Directory Structure
-Explain how the code is organized
-
-## Installation/Run instructions
-Explain how to run your application
-
-## Relevant Links 
-- Documentation link
-- Working URL (if any)
-- anything else
-
-
+Welcome to our application Fuse. 
+To view the repository for the frontend of our app, please visit:
+https://github.com/CS130-W20/fuse-mobile-app
+To view the repository for the backend of our app, please visit:
+https://github.com/CS130-W20/fuse-graphql-server
